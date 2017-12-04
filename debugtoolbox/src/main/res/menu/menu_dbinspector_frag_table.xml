@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="im.dino.dbview.DbViewActivity">
+
+    <item
+        android:id="@+id/dbinspector_action_clear_table"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/dbinspector_action_clear_table"/>
+
+</menu>

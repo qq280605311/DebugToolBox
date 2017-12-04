@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.qinqi.debugtoolbox">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".DebugBoxHomeActivity"
+            android:icon="@drawable/ic_launcher_debug_box"
+            android:label="@string/debug_module_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".crash.CrashReportsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".crash.CrashReportsDetailActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".okhttp.NetTrafficsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".okhttp.NetTrafficsDetailActivity"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".log.LogViewerListActivtiy"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".log.LogViewerDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".dbinspector.activities.DbInspectorActivity"
+            android:icon="@drawable/drw_dbinspector_ic_launcher"
+            android:label="@string/dbinspector_app_name"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".deviceinfo.DeviceInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <activity
+            android:name=".option.OptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+
+        <service
+            android:name=".dbinspector.services.CopyDbIntentService"
+            android:exported="false"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <service
+            android:name=".dbinspector.services.ImportDbIntentService"
+            android:exported="false"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+        <service
+            android:name=".dbinspector.services.ClearTableIntentService"
+            android:exported="false"
+            android:theme="@style/DebugBoxTheme.AppTheme"/>
+
+    </application>
+
+</manifest>

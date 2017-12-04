@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/debug_box_color_primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/debug_box_color_primary_dark</item>-->
+        <!--<item name="colorAccent">@color/debug_box_color_primary</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+    </style>
+
+    <style name="DebugBoxTheme.AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/DebugBoxActionbarTheme</item>
+        <item name="android:homeAsUpIndicator">@drawable/drw_return</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DebugBoxActionbarTheme" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/color_1976d2</item>
+        <item name="android:titleTextStyle">@style/DebugBoxTitleTheme</item>
+        <item name="android:icon">@color/color_transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyCustomTheme.OverFlow</item>
+        <item name="android:itemTextAppearance">@style/MyActionBarItemTextColor</item>
+    </style>
+
+    <style name="DebugBoxTitleTheme" parent="android:TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="MyActionBarItemTextColor" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/color_ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MyCustomTheme.OverFlow" parent="android:ThemeOverlay.Material.Dark.ActionBar" tools:targetApi="lollipop">
+        <item name="android:src">@drawable/drw_menu_icon</item>
+    </style>
+
+    <style name="SettingHeader">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_323232</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dbinspector_textview_allgrade_content">
+        <item name="android:layout_margin">3dip</item>
+        <item name="android:background">#0000ff</item>
+    </style>
+
+    <style name="ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <!--<item name="android:titleTextStyle">@style/ActionBar.TitleText</item>-->
+    </style>
+
+</resources>

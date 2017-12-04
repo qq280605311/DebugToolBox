@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DebugBoxHomeActivity">
+
+    <item
+        android:id="@+id/debug_box_home_set"
+        android:icon="@drawable/drw_set"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_log_viewer_refresh"/>
+
+</menu>

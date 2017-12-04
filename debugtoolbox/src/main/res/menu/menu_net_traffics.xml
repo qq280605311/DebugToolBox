@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".okhttp.NetTrafficsListActivity">
+
+    <item
+        android:id="@+id/debug_box_net_traffics_delete"
+        android:icon="@drawable/drw_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_net_traffics_delete"/>
+
+</menu>

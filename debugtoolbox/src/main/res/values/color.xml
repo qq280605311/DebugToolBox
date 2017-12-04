@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_color">#bf360c</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+
+    <color name="debug_box_color_primary">#3F51B5</color>
+    <color name="debug_box_color_primary_dark">#303F9F</color>
+    <color name="debug_box_color_accent">#FF4081</color>
+
+    <color name="color_transparent">#00000000</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_19191c">#19191c</color>
+
+    <color name="color_2196f3">#2196F3</color>
+    <color name="color_00bcd4">#00bcd4</color>
+    <color name="color_1976d2">#1976D2</color>
+
+    <color name="color_c48a47">#c48a47</color>
+    <color name="color_f3cf83">#f3cf83</color>
+    <color name="color_998bb5">#998bb5</color>
+    <color name="color_807f7f">#807f7f</color>
+
+    <color name="color_006fba">#006fba</color>
+    <color name="color_ff0000">#ff0000</color>
+    <color name="color_48bb31">#48bb31</color>
+    <color name="color_ec732b">#ec732b</color>
+    <color name="color_f2f2f2">#F2F2F2</color>
+</resources>

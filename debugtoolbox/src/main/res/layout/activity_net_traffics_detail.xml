@@ -1,0 +1,81 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_ntd_method"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Method url："
+                    android:textColor="@color/color_c48a47"/>
+
+                <TextView
+                    android:id="@+id/tv_ntd_request_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="headers："
+                    android:textColor="@color/color_c48a47"/>
+
+                <TextView
+                    android:id="@+id/tv_ntd_request_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="request-body："
+                    android:textColor="@color/color_c48a47"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_ntd_response_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protocol code："
+                    android:textColor="@color/color_998bb5"/>
+
+                <TextView
+                    android:id="@+id/tv_ntd_response_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="headers："
+                    android:textColor="@color/color_998bb5"/>
+
+                <TextView
+                    android:id="@+id/tv_ntd_response_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="response-body："
+                    android:textColor="@color/color_998bb5"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
