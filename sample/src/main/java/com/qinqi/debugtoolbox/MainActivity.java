@@ -7,8 +7,8 @@ import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
 
-import net.panatrip.debugtoolbox.log.Logger;
-import net.panatrip.debugtoolbox.manager.DebugToolBoxManager;
+import com.qinqi.debugtoolbox.log.Logger;
+import com.qinqi.debugtoolbox.manager.DebugToolBoxManager;
 
 import java.io.FileInputStream;
 import java.io.IOException;

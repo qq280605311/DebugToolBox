@@ -1,6 +1,6 @@
 package com.qinqi.debugtoolbox;
 
-import net.panatrip.debugtoolbox.log.Logger;
+import com.qinqi.debugtoolbox.log.Logger;
 
 import java.io.IOException;
 

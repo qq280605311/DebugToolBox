@@ -1,8 +1,7 @@
 package com.qinqi.debugtoolbox;
 
 import com.orhanobut.logger.Logger;
-
-import net.panatrip.debugtoolbox.log.LogAdapter;
+import com.qinqi.debugtoolbox.log.LogAdapter;
 
 /**
  * Created by pscj on 2016/11/21.

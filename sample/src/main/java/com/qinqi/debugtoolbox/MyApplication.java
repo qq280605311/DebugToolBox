@@ -2,7 +2,7 @@ package com.qinqi.debugtoolbox;
 
 import android.app.Application;
 
-import net.panatrip.debugtoolbox.manager.DebugToolBoxManager;
+import com.qinqi.debugtoolbox.manager.DebugToolBoxManager;
 
 import okhttp3.OkHttpClient;
 
